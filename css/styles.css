@@ -1,3 +1,40 @@
 body {
-  background-image: url();
+  background-image: url("../img/ttgif2.gif");
+  color: white;
+  font-size: 5vh;
+  text-shadow: 1vh 1vh black;
+}
+
+input {
+  color: black;
+}
+
+.jumbotron {
+  background-image: url("../img/14abe254088db29d184db6c97deecec5.gif")
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+#buttontext {
+  width: 15vw;
+  font-size: 5vh;
+  font-weight: bold;
+  text-shadow: 1vh 1vh black;
+}
+
+.btnimg {
+  display: none;
+}
+
+.btn:hover .btnimg{
+  display: block;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  font-size: 10vw;
+  text-shadow: 1vh 1vh black;
 }

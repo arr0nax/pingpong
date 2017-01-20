@@ -4,7 +4,7 @@ $(function() {
     number = parseInt($('#input').val());
     console.log(number);
     populator(number);
-    
+    $('body').css("background-image", "url(img/clapping1.gif)");
   })
   ////////GLOBAL VARIABLES
   var resultarray = []
