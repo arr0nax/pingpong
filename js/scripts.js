@@ -5,6 +5,8 @@ $(function() {
     console.log(number);
     populator(number);
     $('body').css("background-image", "url(img/clapping1.gif)");
+    $('.result').show();
+    bounceright();
   })
   ////////GLOBAL VARIABLES
   var resultarray = []
@@ -28,5 +30,15 @@ $(function() {
         $('#list').append("<li>"+(i+1)+"</li>")
       }
     }
+    $('.arrays').append(resultarray+" ");
   }
+
+  var bounceright = function() {
+    $('.arrays').animate({marginLeft: "90vw"},'slow','swing',bounceleft())
+  }
+
+  var bounceleft = function(array) {
+    $('.arrays').animate({marginRight: "90vw"},'slow','swing',bounceright())
+  }
+
 });

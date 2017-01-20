@@ -13,8 +13,13 @@ input {
   background-image: url("../img/14abe254088db29d184db6c97deecec5.gif")
 }
 
-.col-md-4 {
+.col-md-6 {
   text-align: center;
+  padding: 8vw;
+}
+
+.result {
+  display: none;
 }
 
 #buttontext {
@@ -24,11 +29,11 @@ input {
   text-shadow: 1vh 1vh black;
 }
 
-.btnimg {
-  display: none;
-}
 
-.btn:hover .btnimg{
+.btn:hover {
+  background-image: url("../img/giphy.gif");
+  height: 500px;
+  width: 500px;
   display: block;
 }
 
