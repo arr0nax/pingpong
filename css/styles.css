@@ -43,3 +43,8 @@ ul {
   font-size: 10vw;
   text-shadow: 1vh 1vh black;
 }
+
+.arrays {
+  width: 10vw;
+  position: absolute;
+}
