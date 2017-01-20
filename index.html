@@ -2,22 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ping pong</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="js/jquery-3.1.1.js">
-
-    </script>
-    <script type="text/javascript" src="js/scripts.js">
-
-    </script>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="arrays">
-
-    </div>
+    <div class="arrays"></div>
     <div class="jumbotron">
-      <p>space bar (or any key) to ping-pong</p>
+      <p>any key to ping-pong</p>
       <h4>bounce count: <span id="bouncecount"></span></h4>
     </div>
     <form class="form" action="index.html" method="post">
@@ -25,17 +19,10 @@
         <div class="col-md-6">
           <label for="input">enter a number</label>
           <input type="text" id="input" value="">
+          <p id='list'></p>
         </div>
         <div class="col-md-6">
           <button type="submit" class="btn" name="button"><span id='buttontext'>Let's Play!</span></button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="result col-md-12">
-          <p id='list'>
-            <p id='list2'></p>
-
-          </p>
         </div>
       </div>
     </form>

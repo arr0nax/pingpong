@@ -22,6 +22,12 @@ input {
   display: none;
 }
 
+.btn {
+  height: 500px;
+  width: 500px;
+  float:left;
+}
+
 #buttontext {
   width: 15vw;
   font-size: 5vh;
@@ -37,7 +43,7 @@ input {
   display: block;
 }
 
-ul {
+#list {
   text-align: center;
   list-style: none;
   font-size: 10vw;

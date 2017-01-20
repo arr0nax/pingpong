@@ -30,17 +30,18 @@ $(function() {
         // $('#list').append("<li>"+(i+1)+"</li>")
       }
     }
-    $('.arrays').append(resultarray);
-    var array = resultarray.join('<br/>')
-    $('#list2').text(array);
+    var array = resultarray.join('<br>')
+    $('#list').html(array);
   }
 
   var bouncearound = function() {
     console.log(bounce);
     if (bounce%2 != 0) {
+      $('.arrays').text("ping");
       bounceright();
       bounce = bounce + 1;
     } else {
+      $('.arrays').text("pong");
       bounceleft();
       bounce = bounce + 1;
     }
@@ -48,11 +49,12 @@ $(function() {
   }
 
   var bounceright = function() {
-    $('.arrays').animate({marginLeft: "120vw"},'slow')
+    $('.arrays').animate({marginLeft: "110vw"},'slow','swing')
+
   }
 
   var bounceleft = function(array) {
-    $('.arrays').animate({marginLeft: "-100vw"},'slow')
+    $('.arrays').animate({marginLeft: "-10vw"},'slow','swing')
   }
 
   /////////GLOBAL FUNCTIONS
