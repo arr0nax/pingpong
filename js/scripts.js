@@ -18,17 +18,18 @@ $(function() {
     for (var i=0;i<number;i++) {
       if ((i+1) % 15 === 0) {
         resultarray[i]=("ping-pong")
-        // $('#list').append("<li>"+"ping-pong"+"</li>")
+        $('.secondrow').append('<img class="imglist" src="img/pingpong.gif">')
       } else if ((i+1) % 5 === 0) {
         resultarray[i]=("pong")
-        // $('#list').append("<li>"+"pong"+"</li>")
+        $('.secondrow').append('<img class="imglist" src="img/clap.gif">')
       } else if ((i+1) % 3 === 0) {
         resultarray[i]=("ping")
-        // $('#list').append("<li>"+"ping"+"</li>")
+        $('.secondrow').append('<img class="imglist" src="img/clap2.gif">')
       } else {
         resultarray[i]=((i+1))
-        // $('#list').append("<li>"+(i+1)+"</li>")
+        $('.secondrow').append('<img class="imglist" src="img/gameshow.gif">')
       }
+      console.log('image?')
     }
     var array = resultarray.join('<br>')
     $('#list').html(array);

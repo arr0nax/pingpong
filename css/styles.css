@@ -54,3 +54,7 @@ input {
   width: 10vw;
   position: absolute;
 }
+
+.imglist {
+  height: 16vw;
+}
