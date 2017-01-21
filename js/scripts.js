@@ -15,6 +15,7 @@ $(function() {
 
   ////////FUNCTIONS
   var populator = function(number) {
+    resultarray = []
     for (var i=0;i<number;i++) {
       if ((i+1) % 15 === 0) {
         resultarray[i]=("ping-pong")
