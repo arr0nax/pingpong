@@ -31,5 +31,5 @@
 ## Setup
  Setup is pretty simple. Users can enter a number, then press the button or hit return to create a list of numbers that follows the rules above. There is also a minigame where they can hit any key to ping pong back and forth in the banner.
 
-##Bugs
- *Images don't remove themselves after they have been created. I couldn't think of an efficient way to do that, so I think of them more as a high score.
+## Bugs
+ * Images don't remove themselves after they have been created. I couldn't think of an efficient way to do that, so I think of them more as a high score.
